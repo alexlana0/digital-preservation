@@ -6,10 +6,10 @@ def main() -> None:
     args = sys.argv[1:]
 
     if len(args) == 0:
-        print("Usage: ft_ancient_text.py <file>")
+        print("Usage: ft_archive_creation.py <file>")
         return
 
-    print("=== Cyber Archives Recovery ===")
+    print("=== Cyber Archives Recovery & Preservation ===")
     print(f"Accessing file '{args[0]}'")
 
     try:
