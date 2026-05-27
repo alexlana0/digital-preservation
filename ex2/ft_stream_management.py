@@ -63,7 +63,8 @@ def main() -> None:
             new_file.close()
             print(f"Data saved in file '{new_file_name}'.")
         except Exception as e:
-            sys.stderr.write(f"[STDERR] Error opening file '{new_file_name}': {e}\n")
+            sys.stderr.write(f"[STDERR] Error opening file '{new_file_name}':"
+                             f"{e}\n")
             sys.stderr.flush()
             print("Data not saved.")
 
